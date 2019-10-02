@@ -1,0 +1,95 @@
+.hamburger, #hamburger {
+    display: none;
+}
+
+body {
+    --main-color-dark: #2A2F33;
+    --main-color-blue: #046DD5;
+    --main-color-redf: #F4655F;
+    --section-color-1: #E1493E;
+    --section-color-2: #8ABA56;
+    --section-color-3: #5B4282;
+    --section-color-4: #FF8932;
+    --section-color-5: #19B6E9;
+    --section-color-6: #E84C8B;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header, h1 {
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+body > header{
+    background-color: var(--main-color-blue);
+    padding: 1.5em 1em;
+}
+
+body > header a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+
+body > header h2, #signup {
+    margin: 0;
+    padding: 0;
+}
+
+#signup  > :first-child {
+    border-right: solid 1px white;
+    padding-right: 1em;
+}
+
+#signup > :last-child {
+    padding-left: 1em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Verdana;
+    border-top: 5px solid red;
+    text-align: center;
+    padding: 1em 0;
+}
+
+li a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+#related {
+    background-color: var(--main-color-dark);
+    color: white;
+    padding: 1em;
+}
+
+article header h1 {
+    display: inline;
+    text-shadow: 3px 3px 3px black;
+    width: 10px;
+}
+
+
+#news article p:first-child::first-letter {
+    font-size: 1.5em;
+}
