@@ -1,0 +1,18 @@
+body {
+    background-color: #EDEFF0;
+    width: 60em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+li {
+    padding: 1em;
+}
