@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <label>Name: <input type="text" name="name" placeholder="John Doe"></label>
+        <fieldset>Age: 
+            <label>&lt;18<input type="radio" name="age" value="lt18"></label>
+            <label>19-35<input type="radio" name="age" value="19_35"></label>
+            <label>36-48<input type="radio" name="age" value="36_48"></label>
+            <label>&gt;49<input type="radio" name="age" value="gt49"></label>
+        </fieldset>
+        <label>Profession: <input type="text" name="profession" placeholder="Engineer"></label>
+        <label>Country:
+            <select name="country">
+                <option value="pt">Portugal</option>
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+                <option value="ch">China</option>
+                <option value="ru">Russia</option>
+            </select>
+        </label>
+        <fieldset>Interests: 
+            <label>Programming <input type="checkbox" name="interests" value="programming"></label>
+            <label>Cooking <input type="checkbox" name="interests" value="cooking"></label>
+            <label>Running <input type="checkbox" name="interests" value="running"></label>
+            <label>Reading <input type="checkbox" name="interests" value="reading"></label>
+            <label>Swimming <input type="checkbox" name="interests" value="swimming"></label>
+        </fieldset>
+        <label>How did you find out about this site: 
+            <textarea name="reason" cols="30" rows="10" placeholder="Some Text"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
