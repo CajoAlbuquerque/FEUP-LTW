@@ -1,0 +1,7 @@
+ul li:first-child { color: red ;} /* R1 */
+#profile.box .name { color: blue ;} /* R2 */
+#profile li~li~li { color: green ;} /* R3 */
+
+#profile .address { color: magenta ;} /* R4 */
+div ul li.address { color: yellow ;} /* R5 */
+a { color: cyan ;} /* R6 */

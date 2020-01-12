@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        li:first-child {
+            color: blue
+        }
+
+        /* R1 */
+        div li {
+            color: red
+        }
+
+        /* R2 */
+        div.widget ul#todo {
+            color: cyan
+        }
+
+        /* R3 */
+        div>ul#todo .important {
+            color: green
+        }
+
+        /* R4 */
+        ul li.postponed {
+            color: inherit
+        }
+
+        /* R5 */
+        li+li+li {
+            color: magenta
+        }
+
+        /* R6 */
+    </style>
+    <script src="p3_a.js" defer></script>
+    <script src="p3_b.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- P1 -->
+    <!-- <div class="widget">
+        <ul id="todo">
+            <li>Buy Bread </li>
+            <li>Learn Guitar </li>
+            <li class="important">Pay Bills </li>
+            <li class="postponed">Wash Car </li>
+        </ul>
+    </div> -->
+    <!-- P3 -->
+    <div id="products">
+        <ul>
+            <li>Apple: <span class="qty">3</span> <a href="#">+ </a></li>
+            <li>Banana: <span class="qty">5</span> <a href="#">+ </a></li>
+            <li>Pear: <span class="qty">6</span> <a href="#">+ </a> </li>
+        </ul>
+        <a href="#" class="buy">Buy</a>
+        <p class="total">0</a>
+    </div>
+</body>
+
+</html>

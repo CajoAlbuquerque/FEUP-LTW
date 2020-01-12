@@ -1,0 +1,19 @@
+1. a) R1- 0,0,1,2
+      R2- 0,1,2,0
+      R3- 0,1,0,3
+      R4- 0,1,1,0
+      R5- 0,0,1,3
+      R6- 0,0,0,1
+
+1. b) Blue; Red; Default; Green
+
+1. c) Blue; Cyan; Default; Magenta
+
+2. How many yaks could a yak pack pack if a yak pack could pack yaks
+
+    a) How many yaks could a yak [pack pack if a yak pack could pack] yaks
+    b) How many y[ak]s could a yak pack pack if a yak pack could pack yaks
+    c) How many [yaks could a yak pack pack if a yak pack could pack yak]s
+    d) Ho[w m]any yaks could a yak pack pack if a yak pack could pack yaks
+    e) How many yaks could a yak pac[k] pack if a yak pack could pack yaks
+    f) How many [yaks could a yak] pack pack if a yak pack could pack yaks
