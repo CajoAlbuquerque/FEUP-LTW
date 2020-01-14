@@ -1,0 +1,3 @@
+#todo li { color : magenta } /* R1 */
+div.widget ul#todo { color : green } /* R2 */
+#todo li:first-child { color : cyan }
