@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #first div {
+            color: blue;
+        }
+
+        /* R1 */
+        div .header {
+            color: magenta;
+        }
+
+        /* R2 */
+        p+p+div :first-child {
+            color: red;
+        }
+
+        /* R3 */
+        h1 {
+            color: green;
+        }
+
+        /* R4 */
+        div+p {
+            color: cyan;
+        }
+
+        /* R5 */
+        p {
+            color: yellow;
+        }
+
+        /* R6 */
+    </style>
+    <script src="p3_a.js" defer></script>
+    <script src="p3_b.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="post" id="first">
+        <div class="header">
+            <h1>Title</h1>
+        </div>
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <div class="footer">
+            <p>This is a footer</p>
+        </div>
+    </div> -->
+    <form id="register" action="#" method="post">
+        <input name="username" type="text">
+        <input name="password" type="password">
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+
+</html>
