@@ -1,0 +1,20 @@
+<recipes>
+    <recipe difficulty="medium">
+        <name>Apple Pie</name>
+        <description>A delicious type of pie</description>
+        <ingredients>
+            <ingredient>Apple</ingredient>
+            <ingredient>Butter</ingredient>
+            <ingredient>Sugar</ingredient>
+            <ingredient>Flour</ingredient>
+        </ingredients>
+    </recipe>
+    <recipe difficulty="low">
+        <name>Mixed Toast</name>
+        <ingredients>
+            <ingredient>Bread</ingredient>
+            <ingredient>Ham</ingredient>
+            <ingredient>Cheese</ingredient>
+        </ingredients>
+    </recipe>
+</recipes>

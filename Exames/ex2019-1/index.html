@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <style>
+        .bar li { color: green } /* R1 */
+        section :first-of-type .second { color: yellow } /* R2 */
+        section#foo {color: blue } /* R3 */
+        section[id=foo] > * {color: purple } /* R4 */
+        .bar li.first:first-child + li { color: inherit } /* R5 */
+        #foo > li.first:first-child ~ li { color: magenta } /* R6 */
+    </style> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <section id="foo">
+        <ul class="bar">
+            <li class="first">A</li>
+            <li class="second">B</li>
+            <li>C</li>
+            <li>D</li>
+        </ul>
+    </section> -->
+    <section id="tic-tac-toe" data-id="1234">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square">X</div>
+        <div class="square">X</div>
+        <div class="square">O</div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square">O</div>
+        <p id="state">playing</p>
+    </section>
+</body>
+
+</html>
